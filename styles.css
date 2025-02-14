@@ -142,8 +142,8 @@ body {
     }
 
     .image-card {
-        width: 250px;
-        height: 350px;
+        width: 350px;
+        height: 450px;
     }
 
     .image-card h2 {
@@ -173,7 +173,7 @@ body {
     }
 
     .image-card {
-        width: 220px;
-        height: 300px;
+        width: 320px;
+        height: 400px;
     }
 }
