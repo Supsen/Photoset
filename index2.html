@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Hearts & Image Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="popup-text" id="valentineText" style="display: none;">Happy Valentine’s Day to Pear!</div>
+        <div class="popup-text" id="imageTitle" style="display: none;"></div> <!-- New image title -->
+        <button class="btn" id="mainButton" onclick="showNextImage()">Click Me 💖</button>
+    </div>
+
+    <!-- Hidden Image Card -->
+    <div class="image-card" id="imageCard">
+        <!-- <h2 id="imageTitle">Photo 1 of 42</h2> -->
+        <img id="slideshow" src="img/img01.jpeg" alt="Slideshow Image">
+    </div>
+
+    <!-- Hidden Buttons (Back & Next) -->
+    <div class="button-container" id="buttonContainer">
+        <button class="btn" id="backButton" onclick="showPreviousImage()">Back</button>
+        <button class="btn" id="nextButton" onclick="showNextImage()">Next</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
