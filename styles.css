@@ -44,8 +44,8 @@ body {
 
 .image-card {
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     background: white;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -72,8 +72,8 @@ body {
 }
 
 .image-card img {
-    width: 150%;
-    height: 150%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
